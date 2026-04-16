@@ -1,7 +1,5 @@
 ![GitHub License](https://img.shields.io/github/license/CiberMik3/javascript)
 
-
-
 # JavaScript
 Repositório usado para estudo da lógica de progamação com uso da linguagem JavaScript
 ## Autor
@@ -53,3 +51,19 @@ Entrada --> Processamento --> Saída
 | <= | Menor ou igual a | 
 | === | Idêntico a |
 | !== | Nao idêntico a |
+
+---
+## Estruturas de controle
+### Estruturas de controle condicionais
+
+```javascript
+if (condição) {
+  //condição verdadeira
+}
+
+if (condição) {
+  //condição verdadeira
+  } else {
+  //condição false
+  }
+```
