@@ -67,3 +67,17 @@ if (condição) {
   //condição false
   }
 ```
+### laços de repetições
+```Javascript
+for (let i = 1; i < 10; i++
+
+
+while (condição) {
+ // o codigo e repetido enquanto a condição (i < 10) for verdadeira
+ }
+
+do {
+// o codigo é executado uma vez independente da condição, depois
+// o código é repetido enquanto a condição for verdadeira
+} while (condição)
+``` 
