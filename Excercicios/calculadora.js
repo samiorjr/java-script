@@ -32,6 +32,10 @@ function Dividir(num1, num2) {
 function raizQuadrada(num1) {
     return Math.sqrt(num1)
 }
+function porcentagem(num1, num2) {
+    return (num1 * num2) / 100
+
+}
 
 //==============================================================
 // Função principal (main)
@@ -69,6 +73,11 @@ function iniciarCalculadora() {
                 num1 = Number(prompt("Digite o valor: "))
                 resultado = raizQuadrada(num1)
                 break
+            case 6:
+                num1 = Number(prompt("Digite o primeiro numero: "))
+                num2 = Number(prompt("Digite o segundo numero: "))
+                resultado = porcentagem(num1, num2)
+                break
             default:
                 console.log("opção invalida")
                 prompt("Pressione [ENTER] para continuar")
@@ -91,6 +100,7 @@ function mostrarMenu() {
     console.log("3. Multiplicar")
     console.log("4. Dividir")
     console.log("5. Raiz quadrada")
+    console.log("6. Porcentagem")
     console.log("0. Sair")
 }
 

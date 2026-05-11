@@ -3,7 +3,7 @@
  * exemplo de encadeamento da estrutura if
  * @author Samuel Junior
  */
-const prompt = require("prompt")
+const prompt = require("prompt-sync")()
 
 let peso, altura, imc
 
@@ -11,11 +11,11 @@ console.clear()
 console.log("Cálculo do IMC ---------------")
 
 peso = Number(prompt("Digite o seu peso em KG: "))
-altura= Number(prompt("Digite a sua altura em metros"))
+altura= Number(prompt("Digite a sua altura em metros: "))
 
 imc  = peso / (altura * altura)
 
-console.log(`IMC: ${imc.tofixed(2)}`)
+console.log(`IMC: ${imc.toFixed(2)}`)
 
 if (imc < 18.5) {
 console.log("abaixo do peso")
